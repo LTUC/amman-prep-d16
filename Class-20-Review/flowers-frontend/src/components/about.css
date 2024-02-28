@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Itim&family=Lobster&family=Ribeye+Marrow&display=swap');
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 70px;
+    border: 3px solid pink;
+}
+
+.about-img {
+    width: 500px;
+}
+
+.prag-div {
+    padding: 26px 40px 53px 40px;
+    text-align: center;
+    background-color: #ffc0cb6b;
+    font-size: 20px;
+}
+
+.prag {
+    font-family: 'Fasthand', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+.h1-about {
+    padding-left: 74px;
+    padding-top: 14px;
+}
