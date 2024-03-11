@@ -29,7 +29,3 @@
 | Code Challenge 17 | [Recursion, String, Array](./Class-17/Code-Challenge-17/README.md) |
 | Code Challenge 18 | [String, Array](./Class-18/Code-Challenge-18/README.md)            |
 | Code Challenge 19 | [HackerRank - 03](./Class-19/Code-Challenge-19/README.md)          |
-
-
-## Course Timeline:
-[Schedule Link](https://alqudscollege-my.sharepoint.com/:x:/g/personal/advtech_ltuc_com/EeV1QcYCko5CmyofLr9rydABIg2T8VcnyY2P-Ck9TuLhZw?e=ykeNZl)
