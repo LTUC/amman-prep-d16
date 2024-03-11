@@ -1,6 +1,0 @@
-- `sqlstart` to run postgres server 
-- `sqlstop` to stop postgres server
-- `psql` to enter your defualt db
-- `\l` to list all my databases
-- `\d` to list all tables i have in my database 
-- `psql -d dbname -f schema.sql ` to connect the table to my db
