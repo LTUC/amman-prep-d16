@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAC Coffee House</title>
+</head>
+<body>
+    <header>
+        <h1>ASAC Coffee House</h1>
+    </header>
+    <main>
+        <h2> Add a drink</h2>
+        <form id="drinkForm">
+            
+            <fieldset> <!--this tag in HTML works like putting a fence around a group of things that belong together-->
+                <legend>Add new drink</legend> <!--this tag in HTML is like a title or a label for the fieldset or the fence-->
+
+                <label for="name">Name:</label> <!--It tells you what information you should put into that box-->
+
+                <input type="text" name="name" id="name" placeholder="Name"> <!--check the explanation.md-->
+
+                <br/> <!--tag in HTML is like hitting the "Enter" key on your keyboard when you're writing
+                It creates a break in the text or space between lines-->
+                <br/>
+
+                <label for="ingredients">Ingredients:</label>
+                <input type="text" name="ingredients" id="ingredients" placeholder="comma split">
+
+                <br/>
+                <br/>
+
+                <label for="imgUrl">Image</label>
+                <input type="text" name="imgUrl" id="imgUrl" placeholder="image path">
+
+                <br/>
+                <br/>
+
+                <label for="isCold">isCold</label>
+                <input type="checkbox" name="isCold" id="isCold">
+
+                <label for="isHot">isHot</label>
+                <input type="checkbox" name="isHot" id="isHot">
+
+                <br/>
+                <br/>
+
+                <input type="submit" value="Add">
+
+            </fieldset>
+
+        </form>
+        <section id="drinks"></section>
+
+    </main>
+    <footer>
+        <script src="./app.js"></script>
+    </footer>
+</body>
+</html>
